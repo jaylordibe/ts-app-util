@@ -151,7 +151,7 @@ export class DateTimeUtil {
      * @param format - output format
      */
     public static addDays(date: string | number | Date | null, numberOfDays: number, format = this.FORMAT_DATETIME): string {
-        return this.toMoment(date).add(numberOfDays, 'day').format(format);
+        return this.toMoment(date).add(numberOfDays, 'days').format(format);
     }
 
     /**
@@ -161,7 +161,7 @@ export class DateTimeUtil {
      * @param format - output format
      */
     public static addMonths(date: string | number | Date | null, numberOfMonths: number, format = this.FORMAT_DATETIME): string {
-        return this.toMoment(date).add(numberOfMonths, 'month').format(format);
+        return this.toMoment(date).add(numberOfMonths, 'months').format(format);
     }
 
     /**
@@ -171,7 +171,7 @@ export class DateTimeUtil {
      * @param format - output format
      */
     public static addYears(date: string | number | Date | null, numberOfYears: number, format = this.FORMAT_DATETIME): string {
-        return this.toMoment(date).add(numberOfYears, 'year').format(format);
+        return this.toMoment(date).add(numberOfYears, 'years').format(format);
     }
 
     /**
@@ -181,7 +181,7 @@ export class DateTimeUtil {
      * @param format - output format
      */
     public static subtractDays(date: string | number | Date | null, numberOfDays: number, format = this.FORMAT_DATETIME): string {
-        return this.toMoment(date).subtract(numberOfDays, 'day').format(format);
+        return this.toMoment(date).subtract(numberOfDays, 'days').format(format);
     }
 
     /**
@@ -191,7 +191,7 @@ export class DateTimeUtil {
      * @param format - output format
      */
     public static subtractMonths(date: string | number | Date | null, numberOfMonths: number, format = this.FORMAT_DATETIME): string {
-        return this.toMoment(date).subtract(numberOfMonths, 'month').format(format);
+        return this.toMoment(date).subtract(numberOfMonths, 'months').format(format);
     }
 
     /**
@@ -201,7 +201,7 @@ export class DateTimeUtil {
      * @param format - output format
      */
     public static subtractYears(date: string | number | Date | null, numberOfYears: number, format = this.FORMAT_DATETIME): string {
-        return this.toMoment(date).subtract(numberOfYears, 'year').format(format);
+        return this.toMoment(date).subtract(numberOfYears, 'years').format(format);
     }
 
     /**
