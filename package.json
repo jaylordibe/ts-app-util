@@ -1,0 +1,32 @@
+{
+  "name": "ts-app-util",
+  "version": "1.0.0",
+  "description": "Typescript application utilities",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaylordibe/ts-app-util.git"
+  },
+  "keywords": [],
+  "author": "jaylordibe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaylordibe/ts-app-util/issues"
+  },
+  "homepage": "https://github.com/jaylordibe/ts-app-util#readme",
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.32",
+    "vanillatoasts": "^1.4.0"
+  }
+}
