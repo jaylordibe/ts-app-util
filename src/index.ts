@@ -3,4 +3,3 @@ export * from './date-time.util';
 export * from './image.util';
 export * from './notification.util';
 export * from './page.util';
-export * from './laravel-pagination.util';
