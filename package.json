@@ -1,6 +1,6 @@
 {
   "name": "ts-app-util",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Typescript application utilities",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

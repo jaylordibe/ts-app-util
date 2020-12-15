@@ -29,6 +29,13 @@ export class DateTimeUtil {
     }
 
     /**
+     * Get current timestamp.
+     */
+    public static getCurrentTimestamp(): number {
+        return Number(moment().format(this.FORMAT_TIMESTAMP));
+    }
+
+    /**
      * Convert date to timestamp.
      * @param date - date string or Date object to be converted to timestamp
      */
@@ -48,7 +55,7 @@ export class DateTimeUtil {
         } else if (typeof date === 'number') {
             momentDate = moment.unix(date);
         } else {
-            momentDate = moment(date);
+            momentDate = moment(date, this.FORMAT_DATE);
         }
 
         return momentDate;
